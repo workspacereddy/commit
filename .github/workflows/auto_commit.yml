@@ -2,7 +2,7 @@ name: Auto Commit Every Hour
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '*/7 * * * *'  # Every hour
   workflow_dispatch:     # Allow manual run from GitHub
 
 jobs:
